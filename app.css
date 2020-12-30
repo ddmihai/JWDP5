@@ -1,0 +1,122 @@
+*
+{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar-toggler-icon 
+{
+    color: goldenrod;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid goldenrod;
+    padding: 1em;
+}
+
+.right
+{
+    margin-left: auto;
+}
+
+.btn-bordered
+{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.jumbotron
+{
+    height: 80vh;
+}
+
+.hero-img
+{
+    height: inherit;
+    max-width: auto;
+    object-fit: cover;
+}
+
+.background-transparent
+{
+    position: absolute;
+    z-index: 12;
+    background-color: rgba(0,0,0,0.6);
+    height: inherit;
+}
+
+.img-smaller
+{
+    height: 100px;
+    width: 100px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+.height
+{
+    min-height: 500px;   
+}
+
+.height-subs
+{
+    min-height: 340px;
+    background: url('/img/demo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.about
+{
+    min-height: 500px;
+    background: url('/img/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-about
+{
+    min-height: inherit;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.card-index
+{
+    border: none;
+}
+
+
+
+
+
+
+
+
+/* CONTACT PAGE STARTS HERE */
+.contact
+{
+    min-height: 700px;
+}
+
+.main-contact
+{
+    min-height: inherit;
+}
+
+.contact-img
+{
+    background: url('/img/retro-contact.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.contact-img-text
+{
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+}
