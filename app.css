@@ -74,7 +74,7 @@
     min-height: 500px;
     background: url('/img/about.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
 }
 
@@ -119,4 +119,34 @@
     background-color: rgba(0,0,0,0.6);
     height: 100%;
     width: 100%;
+}
+
+/* footer */
+.footer
+{
+    min-height: 270px;
+    background: url('/img/texture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-footer
+{
+    min-height: inherit;
+    background-color: rgba(0,0,0,0.6);
+    min-width: 100%;
+}
+
+.footer-bordered
+{
+    border-right: 1.4px solid white;
+}
+
+
+
+/* DETAILED PRODUCT PAGE */
+.detailed
+{
+    min-height: 900px;
+    border: 2px solid black;
 }

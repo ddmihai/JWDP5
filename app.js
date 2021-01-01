@@ -36,3 +36,6 @@ app.use('/api/teddies', teddyRoutes);
 app.use('/api/furniture', furnitureRoutes);
 
 module.exports = app;
+
+
+console.log('- http://localhost:3000/api/cameras');
