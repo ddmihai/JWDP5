@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+  <title>DEV Cameras</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md bg-dark p-3">
+    <a href="index.html" class="navbar-brand text-white"> <img src="/img/logo.png" width="30" height="30"
+        alt="camera logo">&nbsp; DEV Cam &nbsp; &nbsp;</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+      <span class="navbar-toggler-icon">&#9776;</span>
+    </button>
+
+    <div id="navbarContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav right">
+        <li class="nav-item active mx-4">
+          <a href="index.html" class="nav-link text-warning">Home</a>
+        </li>
+
+        <li class="nav-item mx-4">
+          <a href="contact.html" class="nav-link text-warning">Contact</a>
+        </li>
+
+        <li class="nav-item mx-4 btn-bordered border border-warning rounded">
+          <a href="cart.html" class="nav-link text-warning cartLink">Cart</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+
+  <!-- promo section -->
+  <div
+    class="col-md-10 col-xs-12 mx-auto m-3 d-flex flex-row topBar align-items-center justify-content-between flex-wrap">
+    <a class="top-links text-dark mx-auto p-2" href="product.html"><img src="/img/arrow.png" height="30" width="30"
+        alt="arrow left continue shopping"> Coutinue shopping</a>
+    <a class="top-links text-dark mx-auto p-2" href="#"><img src="/img/livechat.png" alt="livechat icon" height="30"
+        width="30"> Live Chat</a>
+  </div>
+  <!-- end of promo section -->
+
+
+  <!-- main container -->
+  <div class="container-fluid mx-auto col-md-11 col-xs-12 d-flex flex-wrap">
+    <!-- left part -->
+    <div class="col-lg-6 col-md-12">
+      <div class="col">
+        <div class="col bg-light p-4">
+          <h1 class="text-warning p-1">GET FREE SHIPPING WITH US EVERY WEDNSDAY!</h1>
+          <p class="text-muted p-1">Non members can purchase same offer in limited terms. See details <a href="#"
+              class="text-muted">here ></a></p>
+        </div>
+      </div>
+
+      <div class="col bg-light mt-3 p-4">
+        <h2 class="text-dark px-2 p-1 quantityTitle">Your cart</h2>
+      </div>
+
+<!-- product card -->
+<div class="col prodHolder">
+      <!-- <div class="col border-bottom p-4 mt-2">
+        <div class="col upper d-flex flex-wrap">  
+          <div class="col-lg-4 col-md-12 col-xs-12 imgContainer">dawd</div>
+
+          <div class="col-lg-4 col-md-12 col-xs-12 description">
+            <h5 class="text-dark py-2 prodName">Product name</h5>
+
+            <div class="col middle">
+              <p class="text-dark"><strong>Product ID:</strong> <span class="prodID"></span></p>
+              <p><strong>Design</strong> 123Dp21-model</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <p class="text-warning text-center prodPrice"><strong>1200 $</strong></p>
+          </div>
+        </div>
+
+        <div class="col bottom d-flex justify-content-center">
+          <button type="button" class="btn btn-outline-dark px-5 mx-2">REMOVE</button>
+          <button type="button" class="btn btn-outline-dark px-5 mx-2">EDIT</button>
+        </div>
+      </div> -->
+    </div>
+<!-- product card ends here -->
+    </div>
+
+    <!-- right part with the form -->
+    <div class="col-lg-5 col-md-12 bg-dark pb-5 mb-4">
+        <h4 class="text-white p-4 border-bottom">SUMARY</h4>
+        <p class="text-white lead p-4 border-bottom">DO YOU HAVE A PROMO CODE? <img class="mx-5" src="/img/info.png" height="27" width="27" alt=" info icon"></p>
+          <div class="col-lg-12 col-md-6 d-flex flex-wrap justify-content-between">
+            <p class="text-white lead p-4">SUBTOTAL: </p>
+            <p class="text-warning lead p-4 subTotal"><strong>0 $</strong></p>
+          </div>
+
+          <div class="col-lg-12 col-md-5 d-flex flex-wrap justify-content-between">
+            <p class="text-white lead p-4 deliverPrice">DELIVERY COST PLUS WORKER HANDLING <br> AND PACKING: </p>
+            <p class="text-warning lead p-4 "><strong>122 $</strong></p>
+          </div>
+
+          <div class="col-lg-12 col-md-5 d-flex flex-wrap justify-content-between border-bottom">
+            <p class="text-light lead p-4"><strong>TAX</strong> </p>
+            <p class="text-warning lead p-4 tax "><strong>0 $</strong></p>
+          </div>
+
+          <div class="col-lg-12 col-md-5 d-flex flex-wrap justify-content-between">
+            <p class="text-light lead p-4"><strong>TOTAL</strong> </p>
+            <p class="text-warning lead p-4 totalSum"><strong>0 $</strong></p>
+          </div>
+
+          <div class="col-lg-12 col-md-5 d-flex flex-wrap justify-content-between flex-column">
+            <button type="button" class="btn p-3 col-10 mx-auto btn-warning text-white checkout rounded-0"><strong>CHECKOUT</strong></button>
+            <h4 class="text-white mx-auto p-5"><em>OR</em></strong></h4>
+            <button type="button" class="btn btn-light rounded-0 p-2 col-10 mx-auto text-dark"><strong>CHECKOUT WITH</strong><img class="px-3" src="/img/ppal.png" height="40" width="80" alt="paypal"></button>
+          </div>
+          
+    </div>
+  </div>
+
+
+<!-- footer -->
+<footer class="bg-dark p-4">
+  <div class="row bordered-right">
+    <a href="index.html" class="navbar-brand text-white m-4"> <img src="/img/logo.png" width="30" height="30" alt="camera logo">&nbsp; DEV Cam &nbsp; &nbsp;</a>
+    <h6 class="text-white m-4">Follow Us:</h6>
+      <img src="/img/twitter.png" alt="twitter" class="social">
+      <img src="/img/instagram.png" alt="instagram" class="social">
+      <img src="/img/facebook.png" alt="facebook" class="social">
+  </div>
+</footer>
+<!-- end footer -->
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="cart.js"></script>
+</body>
+
+</html>

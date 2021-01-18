@@ -89,13 +89,6 @@
     border: none;
 }
 
-
-
-
-
-
-
-
 /* CONTACT PAGE STARTS HERE */
 .contact
 {
@@ -147,6 +140,57 @@
 /* DETAILED PRODUCT PAGE */
 .detailed
 {
-    min-height: 900px;
-    border: 2px solid black;
+    max-width: 1400px;
+    
+}
+
+.social
+{
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: 20px   ;
+}
+
+.addCart:hover
+{   
+    -webkit-box-shadow: 1px 17px 12px 0px rgba(0,0,0,0.21); 
+    box-shadow: 1px 17px 12px 0px rgba(0,0,0,0.21);
+}
+
+.addCart
+{
+    width: 180px;
+}
+
+
+/* main image container image css */
+.imagecontainer img
+{
+    max-width: inherit;
+    max-height: inherit;
+}
+
+.imagecontainer
+{
+    object-fit: cover;
+}
+
+
+/* CART PAGE */
+.topBar 
+{
+    min-height: 60px;
+}
+
+.top-links
+{
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.imagee
+{
+    max-width: 100%;
+    max-height: 100%;
 }
