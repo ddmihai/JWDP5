@@ -1,3 +1,5 @@
+"use strict";
+
 // set the productwith the ITEM parameter
 let displayProduct = (item) => {
         let product = `
@@ -19,7 +21,6 @@ let displayProduct = (item) => {
                 })
 
 }
-
 
 // main URL
 let url = new URL('http://localhost:3000/api/cameras/');

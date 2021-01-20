@@ -194,3 +194,11 @@
     max-width: 100%;
     max-height: 100%;
 }
+
+
+
+#firstName, #lastName, #email, #address, #city
+{
+    border-radius: 0;
+    height: 50px;
+}

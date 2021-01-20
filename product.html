@@ -1,147 +1,130 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="app.css">
-    <title>DEV Cameras</title>
-  </head>
-  <body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md bg-dark p-3">
-      <a href="index.html" class="navbar-brand text-white"> <img src="/img/logo.png" width="30" height="30" alt="camera logo">&nbsp; DEV Cam &nbsp; &nbsp;</a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-        <span class="navbar-toggler-icon">&#9776;</span>
-      </button>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+  <title>DEV Cameras</title>
+</head>
 
-      <div id="navbarContent" class="collapse navbar-collapse">
-          <ul class="navbar-nav right">
-            <li class="nav-item active mx-4">
-              <a href="index.html" class="nav-link text-warning">Home</a>
-            </li>
-    
-            <li class="nav-item mx-4">
-              <a href="contact.html" class="nav-link text-warning">Contact</a>
-            </li>
+<body>
 
-            <li class="nav-item mx-4 btn-bordered border border-warning rounded">
-              <a href="cart.html" class="nav-link text-warning cartLink">Cart</a>
-            </li>
-        </ul>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md bg-dark p-3">
+    <a href="index.html" class="navbar-brand text-white"> <img src="/img/logo.png" width="30" height="30"
+        alt="camera logo">&nbsp; DEV Cam &nbsp; &nbsp;</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+      <span class="navbar-toggler-icon">&#9776;</span>
+    </button>
+
+    <div id="navbarContent" class="collapse navbar-collapse">
+      <ul class="navbar-nav right">
+        <li class="nav-item active mx-4">
+          <a href="index.html" class="nav-link text-warning">Home</a>
+        </li>
+
+        <li class="nav-item mx-4">
+          <a href="contact.html" class="nav-link text-warning">Contact</a>
+        </li>
+
+        <li class="nav-item mx-4 btn-bordered border border-warning rounded">
+          <a href="cart.html" class="nav-link text-warning cartLink">Cart</a>
+        </li>
+      </ul>
     </div>
-    </nav>
-<!-- navbar end -->
+  </nav>
+  <!-- navbar end -->
 
+  <h1 class="text-center display-5 p-5">Camera Details</h1>
 
-<h1 class="text-center display-5 p-5">Camera Details</h1>
-
-
-<div class="container-fluid detailed">
-  <!-- top container divided in two parts -->
-  <div class="row">
+  <div class="container-fluid detailed">
+    <!-- top container divided in two parts -->
+    <div class="row">
       <div class="col-md-6 col-sm-12 imagecontainer p-0 m-0"></div>
       <div class="col-md-6 col-sm-12">
         <h2 class="text-dark display-6 p-2 cameraName mt-3">Camera Name</h2>
-        <p class="text-justify p-2 mt-4 cameraDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, voluptatem. Ut cumque repellat qui ipsa exercitationem animi molestias assumenda nam!</p>
-      
-      <div class="col-md-6 col-sm-12 p-2 d-flex justify-content-around">
-        <p>Average rating:</p> 
-        <div class="stars">
-          <img width="20" height="20" src="/img/star.png" alt="stars">
-                <img width="20" height="20" src="/img/star.png" alt="stars">
-                <img width="20" height="20" src="/img/star.png" alt="stars">
-                <img width="20" height="20" src="/img/star.png" alt="stars">
-                <img width="20" height="20" src="/img/star.png" alt="stars">
+        <p class="text-justify p-2 mt-4 cameraDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Quo, voluptatem. Ut cumque repellat qui ipsa exercitationem animi molestias assumenda nam!</p>
+
+        <div class="col-md-6 col-sm-12 p-2 d-flex justify-content-around">
+          <p>Average rating:</p>
+          <div class="stars">
+            <img width="20" height="20" src="/img/star.png" alt="stars">
+            <img width="20" height="20" src="/img/star.png" alt="stars">
+            <img width="20" height="20" src="/img/star.png" alt="stars">
+            <img width="20" height="20" src="/img/star.png" alt="stars">
+            <img width="20" height="20" src="/img/star.png" alt="stars">
+          </div>
         </div>
-      </div>
         <div class="col-md-6 col-xs-12">
           <h4 class="display-6 p-2 mt-4">Lenses</h4>
-            <div class="lenses p-2">
-              <!-- <button type="button" class="btn btn-outline-dark lenseBtn m-1">Dark</button> -->
-            </div>
+          <div class="lenses p-2">
+            <!-- <button type="button" class="btn btn-outline-dark lenseBtn m-1">Dark</button> -->
+          </div>
         </div>
-  </div>
-</div>
-</div>
-
-
-<!-- promo tab -->
-<div class="container-fluid bg-light border-bottom">
-  <div class="row">
-    <div class="col">
-      <h4 class="d-flex align-items-center justify-content-center p-3"> <img src="/img/delivery.png" alt="24 horrs delivery" height="70" width="70"> Promotion:</h3>
-      <h5 class="text-dark text-center pb-4">Buy now and you get bonus scheduled time for your delivery!</h5>
-
+      </div>
     </div>
   </div>
-</div>
 
-<!-- buy section -->
-<div class="container-fluid p-5 d-flex justify-content-around border-bottom flex-wrap">
+  <!-- promo tab -->
+  <div class="container-fluid bg-light border-bottom">
+    <div class="row">
+      <div class="col">
+        <h4 class="d-flex align-items-center justify-content-center p-3"> <img src="/img/delivery.png"
+            alt="24 horrs delivery" height="70" width="70"> Promotion:</h3>
+          <h5 class="text-dark text-center pb-4">Buy now and you get bonus scheduled time for your delivery!</h5>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- buy section -->
+  <div class="container-fluid p-5 d-flex justify-content-around border-bottom flex-wrap">
     <h5 class="p-1 pricedd">Order now</h5>
     <button type="button" class="btn btn-dark addCart">Add Cart</button>
-</div>
-
-
-<!-- parteners -->
-<div class="container-fluid d-flex  flex-column align-content-center">
-  <h3 class="p-1 text-dark mx-auto">Parteners</h3>
-  <div class="col mx-auto d-flex flex-wrap w-80 p-4" >
-    <img class="m-3" src="/img/js.png" alt="javascript" width="60" height="60">
-    <img class="m-3" src="/img/wordpress.png" alt="wordpress" width="60" height="60">
-    <img class="m-3" src="/img/bootstrap.png" alt="bootstrap" width="60" height="60">
-    <img class="m-3" src="/img/html.png" alt="html" width="60" height="60">
   </div>
-</div>
 
+  <!-- parteners -->
+  <div class="container-fluid d-flex  flex-column align-content-center">
+    <h3 class="p-1 text-dark mx-auto">Parteners</h3>
+    <div class="col mx-auto d-flex flex-wrap w-80 p-4">
+      <img class="m-3" src="/img/js.png" alt="javascript" width="60" height="60">
+      <img class="m-3" src="/img/wordpress.png" alt="wordpress" width="60" height="60">
+      <img class="m-3" src="/img/bootstrap.png" alt="bootstrap" width="60" height="60">
+      <img class="m-3" src="/img/html.png" alt="html" width="60" height="60">
+    </div>
+  </div>
 
-<!-- footer -->
-<footer class="bg-dark p-4">
-  <div class="row bordered-right">
-    <a href="index.html" class="navbar-brand text-white m-4"> <img src="/img/logo.png" width="30" height="30" alt="camera logo">&nbsp; DEV Cam &nbsp; &nbsp;</a>
-    <h6 class="text-white m-4">Follow Us:</h6>
+  <!-- footer -->
+  <footer class="bg-dark p-4">
+    <div class="row bordered-right">
+      <a href="index.html" class="navbar-brand text-white m-4"> <img src="/img/logo.png" width="30" height="30"
+          alt="camera logo">&nbsp; DEV Cam &nbsp; &nbsp;</a>
+      <h6 class="text-white m-4">Follow Us:</h6>
       <img src="/img/twitter.png" alt="twitter" class="social">
       <img src="/img/instagram.png" alt="instagram" class="social">
       <img src="/img/facebook.png" alt="facebook" class="social">
-  </div>
-</footer>
-<!-- end footer -->
+    </div>
+  </footer>
+  <!-- end footer -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="product.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="product.js"></script>
 </body>
+
 </html>

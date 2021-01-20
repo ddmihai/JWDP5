@@ -1,12 +1,14 @@
 {
   "name": "orinoco-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the back end server for Project 5 of the Junior Web Developer path.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js",
+    "type": "module"
   },
-  "author": "",
+  "author": "daniel",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
@@ -16,5 +18,17 @@
     "mongoose": "^5.3.8",
     "mongoose-unique-validator": "^2.0.2",
     "uuid": "^3.3.2"
-  }
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddmihai/JWDP5.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ddmihai/JWDP5/issues"
+  },
+  "homepage": "https://github.com/ddmihai/JWDP5#readme"
 }

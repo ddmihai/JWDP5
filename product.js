@@ -1,4 +1,5 @@
 
+"use strict";
 
 //get item ID from pages
 let prodID = localStorage.getItem('prod');
@@ -15,7 +16,7 @@ let cartLink = document.querySelector('.cartLink');
 
 // counter
 let counter = 0;
-items = [];
+let items = [];
 
 
 // set image background
