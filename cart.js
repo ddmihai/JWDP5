@@ -112,7 +112,12 @@ window.onload = () => {
 // go to form section to complete order
 let checkoutForm = () => {
   checkout.onclick = () => {
-      window.location = '/form.html';
+    if (items.length == 0) {
+      quantityTitle.textContent = 'Cannot checkout an empty Cart!';
+    }
+      else {
+        window.location = '/form.html';
+      }
   }
 }
 

@@ -27,7 +27,7 @@ let imageContainer = (item) => {
     mainImage.appendChild(img);
 }
 
-// get the name, description, lenses and price
+// get the name, description, lenses and price. this function append the lense in the UI component with the help of a button
 let lenses = (item) => {
     let lenses = item.lenses;
     for (let i = 0; i < lenses.length; i ++) {

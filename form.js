@@ -32,7 +32,7 @@ let checkInput = (i) => {
 
 // this method check input to make sure that it contains only letters#
 //input field should be return true to pass the test
-let validateLetters = (i) => {
+let validateLetters = (i) => {  
     let letters = /^[A-Za-z]+$/;
     if (!i.value.match(letters)) {
         inputError(i);
@@ -65,13 +65,14 @@ completeOrder.addEventListener('click', ($event) => {
                 }
 
                 request(body);
-                console.log('form is ready to submit');
-            }
+                }
         else {
                 console.log(('form is not ready to submit'));
         }
 })
 
+// this is the request function. here, in the body is presented the object that need to be send to the API( stringfied ).
+//after, the data can be passed to the checkLocalStorage(data) function that check and update the localstorage every time a change has been done
 let request = (body) => {
     fetch('http://localhost:3000/api/cameras/order', {
         method : 'POST',
@@ -83,7 +84,22 @@ let request = (body) => {
                   }
     })
             .then(response => response.json())
-            .then(data => console.log(data))
+            .then(data => checkLocalStorage(data))
             .catch(err => console.log(err))
 }
+
+// this function check if the order confirmation exists. IF it exists, it will remove it and create another one with the updated data.
+// if the local storage object does not exist, the function will create it
+let checkLocalStorage = (data) => {
+    if (localStorage.getItem('confirmation') == true) {
+            localStorage.setItem('confirmation', JSON.stringify(data));
+            window.location = 'order_confirm.html';
+    }
+    else {
+            localStorage.removeItem('confirmation');
+            localStorage.setItem('confirmation', JSON.stringify(data));
+            window.location = 'order_confirm.html';        
+    }
+}
+
 
