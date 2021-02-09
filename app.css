@@ -153,8 +153,7 @@
 }
 
 .addCart:hover
-{   
-    -webkit-box-shadow: 1px 17px 12px 0px rgba(0,0,0,0.21); 
+{    
     box-shadow: 1px 17px 12px 0px rgba(0,0,0,0.21);
 }
 
